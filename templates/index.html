@@ -1,0 +1,40 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<center>
+    <!-- <p class="text">Cleanliness Automation - Parul University</p> -->
+    <p class="text" style="font-size: 35px"><b>Upload an image to detect Waste! ⤵</b></p>
+    <div class="upload-form">
+      <form action = "/uploader" method = "POST" 
+        enctype = "multipart/form-data">
+        <input class="btn btn-info btn-lg " type = "file" name = "file" />       
+        <input class="btn btn-info btn-lg " type = "submit"/> 
+	  </form>
+    </div>
+</center> 
+<br>
+<br>
+<ul type="square">
+  <li style="font-size: 25px">Sit back and Relax</li>
+  <li style="font-size: 25px">Detection May take few seconds.</li>
+  <li style="font-size: 25px">Detection Time depends on Computation Power of Machine</li>
+  <li style="font-size: 25px">You will sortly redirect to new Page!!</li>
+</ul> 
+
+{% endblock %}
+<!--   <footer>
+		    <div class="foot">
+		    <b>Developed By <a href="https://www.youtube.com/c/EnggtecH">Engg_tecH</a></b><br>
+		        Follow us for more on:<br>
+
+		        <a href="https://www.instagram.com/engg_tech.ai/">Instagram</a><br>
+
+		        <a href="https://www.facebook.com/enggtechai">Facebook</a><br>
+
+		        <a href="https://www.youtube.com/c/EnggtecH">Youtube</a><br>
+
+		        <a href="https://www.github.com/hmgtech">Github</a>
+
+		    </div>
+		    <script src="{{ url_for('static', filename='js/main.js') }}" type="text/javascript"></script>    
+   </footer> -->

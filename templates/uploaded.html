@@ -1,0 +1,32 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<p class="text-center">{{ fname }} successfully uploaded.</p>
+    <center>
+        <div class="image-container">
+            <p style="font-size: 35px"><b><u>Original Image</u> ⤵</b></p>     
+            <a href="/static/uploads/{{ fname }}" target="_new"><img src="/static/uploads/{{ fname }}" class="upload-image-thumb"></a>
+        </div>
+             
+</center>
+</br>
+
+    <center>
+    <div class="image-container">
+        <p style="font-size: 35px"><b><u>Detected Image</u> ⤵</b></p>
+        <a href="/static/detections/{{display_detection}}" target="_new"><img src="/static/detections/{{display_detection}}" class="upload-image-thumb"></a> 
+    </div>
+    <br>
+
+    <div class="upload-form">
+            <b><p class="text-center" style="font-size: 35px">Upload another?</p></b>
+            <form action = "/uploader" method = "POST" 
+                              enctype = "multipart/form-data">
+                <input class="btn btn-info btn-lg " type = "file" name = "file" />
+                <input class="btn btn-info btn-lg " type = "submit"/>
+            </form>
+        </div> 
+</center>
+
+{% endblock %} 
+
