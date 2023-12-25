@@ -1,5 +1,5 @@
-[![working](https://img.shields.io/badge/working-100%-green
-)](https://img.shields.io/badge/working-100%25-green
+[![language](https://img.shields.io/badge/language-python-blue
+)](https://img.shields.io/badge/language-python-blue
 ) 
 [![license](https://img.shields.io/badge/license-MIT-orange
 )](https://img.shields.io/badge/coverage-86%25-orange
