@@ -1,3 +1,10 @@
+[![working](https://img.shields.io/badge/working-100%-green
+)](https://img.shields.io/badge/pipeline-passed-green
+) 
+[![license](https://img.shields.io/badge/license-MIT-orange
+)](https://img.shields.io/badge/coverage-86%25-orange
+)
+
 # Geo Waste detection system
 
 Welcome to the Waste Detection App – an innovative solution for identifying and categorizing waste using Flask, Python 3.8, YOLO (You Only Look Once), and TensorFlow. This application empowers users to contribute to environmental sustainability by providing a streamlined and efficient way to distinguish different types of waste, such as plastic and food waste.
@@ -19,6 +26,8 @@ Welcome to the Waste Detection App – an innovative solution for identifying an
 - Flask
 - YOLO (You Only Look Once)
 - TensorFlow
+
+[Note]: Here, this repo doesnot contains weights file, hence you wont able to run the project, But, you can request us for the weight of educaction purpose.
 
 ## Getting Started:
 1. Clone the Repository:
@@ -42,6 +51,7 @@ Visit http://localhost:5000 in your web browser to access the Geo Waste Detectio
 
 ## Screenshots:
 Demo:
+
 ![Geo-wate](./screenshots/demo.gif)
 
 Images:
@@ -54,6 +64,24 @@ Images:
 
 3. 
 ![Detection screen](./screenshots/Detection.png)
+
+## Developers
+
+Meet the developers behind this project:
+
+- **Hiteshkumar Gupta**
+  - GitHub: [@hmgtech](https://github.com/hmgtech)
+  - LinkedIn: [Hitesh Gupta](https://www.linkedin.com/in/hitesh-gupta-0878b3173/)
+
+
+- **Tijilkumar Parmar**
+  - LinkedIn: [Tijil Parmar](https://www.linkedin.com/in/tijil-parmar-009631161/)
+
+- **Steeve Nazareth**
+  - LinkedIn: [Steeve Nazareth](https://www.linkedin.com/in/steeve-nazareth/)
+
+- **Prachi Gour**
+  - LinkedIn: [Prachi Gour](https://www.linkedin.com/in/prachigour/)
 
 ## License:
 This project is licensed under the terms of the [MIT license](LICENSE).
